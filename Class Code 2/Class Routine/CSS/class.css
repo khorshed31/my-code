@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Luckiest+Guy&display=swap');
+body{
+    font-family: 'Alata', sans-serif;
+}
+h4{
+    font-family: 'Luckiest Guy', cursive;
+    ;
+}
+table,tr,td,th{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+}
+th,td{
+    width: auto;
+}
+table,tr,td{
+    height: 70px;
+    text-align: center;
+}
+p{
+    color: red;
+}
+tr:nth-child(even){
+    background-color: #D9E2F3;
+}
+tr:nth-child(odd){
+    background-color: #B4C6E7;
+}
+th{
+    background-color: #4472C4;
+    color: white;
+}
+.day{
+    background-color: #4472C4;
+    color: white;
+}
+h2{
+    font-family: 'Luckiest Guy', cursive;
+}
+td:hover{
+    background-color: teal;
+    color: white;
+}
+tr:hover{
+    background-color: #4472C4;
+}
+h2:hover{
+    color: #4472C4;
+}
